@@ -89,7 +89,7 @@ const Dashboard = () => {
   return (
     <>
       <Grid container direction='row'>
-        <Grid item xl={2}>
+        <Grid item xl={2}  >
           <Box sx={{ flexGrow: 1 }}>
             <AppBar position="static" sx={{ bgcolor: '#F0F0F0' }} elevation={1}>
               <Toolbar>
@@ -213,7 +213,7 @@ const Dashboard = () => {
                   </Stack>
                 </Box>
 
-                <MenuItem sx={{ mt: 1.3 }} >
+                <Link href='/comset' underline='none'><MenuItem sx={{ mt: 1.3 }} >
                   <Stack direction='row' sx={{ ml: 2.7, my: 0.5 }}>
                     <FaBuilding style={{ color: '#1A344B', height: "20px", width: '20px' }} />
                     <Typography sx={{ ml: 2, mt: 0.2, textTransform: 'capitalize', fontFamily: 'Montserrat', color: '#1A344B', fontSize: '14px', fontWeight: 600 }}>
@@ -221,6 +221,7 @@ const Dashboard = () => {
                     </Typography>
                   </Stack>
                 </MenuItem>
+                </Link> 
 
                 <MenuItem>
                   <Stack direction='row' sx={{ ml: 2.7, my: 0.5 }}>
@@ -1063,7 +1064,7 @@ const Dashboard = () => {
                                   </Box>
 
                                   <Box component='div' sx={{ ml: 3, mt: 1.5 }}>
-                                    <Typography sx={{ fontSize: 16.21, fontWeight: 200, fontFamily: 'Montserrat', color: '#1A344B', textTransform: 'capitalize' }}>
+                                    <Typography sx={{fontSize: 16.21, fontWeight: 200, fontFamily: 'Montserrat', color: '#1A344B', textTransform: 'capitalize' }}>
                                       syed samiur rahman meeting (deputy<br />director of parks and recreation)
                                     </Typography>
                                     <Stack direction='row' sx={{ mt: 1 }}>

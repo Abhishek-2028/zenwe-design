@@ -34,7 +34,22 @@ import CircleIcon from '@mui/icons-material/Circle';
 
 
 
-import { AppBar, Toolbar, Box, IconButton, Typography, Button, Grid, Stack, Divider, Paper, Avatar, Link, Chip, Menu, MenuItem } from '@mui/material'
+import { AppBar,
+     Toolbar, 
+     Box, 
+     IconButton, 
+     Typography, 
+     Button, 
+     Grid, 
+     Stack, 
+     Divider, 
+     Paper, 
+     Avatar,
+     Link, 
+     Chip, 
+     Menu, 
+     MenuItem 
+    } from '@mui/material'
 
 
 
@@ -180,7 +195,7 @@ const Position = () => {
                                     </Stack>
                                 </Box>
 
-                                <MenuItem sx={{ mt: 1.3 }} >
+                                <Link href='/comset' underline='none'><MenuItem sx={{ mt: 1.3 }} >
                                     <Stack direction='row' sx={{ ml: 2.7, my: 0.5 }}>
                                         <FaBuilding style={{ color: '#1A344B', height: "20px", width: '20px' }} />
                                         <Typography sx={{ ml: 2, mt: 0.2, textTransform: 'capitalize', fontFamily: 'Montserrat', color: '#1A344B', fontSize: '14px', fontWeight: 600 }}>
@@ -188,6 +203,7 @@ const Position = () => {
                                         </Typography>
                                     </Stack>
                                 </MenuItem>
+                                </Link>
 
 
                                 <MenuItem>
@@ -372,7 +388,7 @@ const Position = () => {
                         <Divider sx={{ height: 2 }} />
 
                         <Grid item xl={4} sx={{ bgcolor: '#1A344B' }}>
-                            <Box component='div' sx={{my:9 }}>
+                            <Box component='div' sx={{ my: 9 }}>
                                 <Stack spacing={4}>
 
 
@@ -442,7 +458,7 @@ const Position = () => {
                     </AppBar>
 
                     <Box component='div' sx={{ bgcolor: '#E4E3E3', p: 2 }}>
-                        <Paper elevation={0} sx={{ borderRadius: '25px 25px 0px 0px',height:'850px' }}>
+                        <Paper elevation={0} sx={{ borderRadius: '25px 25px 0px 0px', height: '850px' }}>
                             <Paper sx={{ bgcolor: '#1A344B', borderRadius: '25px 25px 0px 0px' }}>
                                 <Box component='div' sx={{ p: 1, ml: 2 }}>
                                     <Stack direction='row'>
@@ -556,7 +572,7 @@ const Position = () => {
 
                                 </Paper>
 
-                                <Paper sx={{ borderRadius: '12px', mt:'7px',ml: '12.5px', width: '1327px' }} elevation={4} id='2'>
+                                <Paper sx={{ borderRadius: '12px', mt: '7px', ml: '12.5px', width: '1327px' }} elevation={4} id='2'>
 
                                     <Stack direction='row' sx={{ p: 1.5 }}>
 
@@ -600,7 +616,7 @@ const Position = () => {
 
                                     <Stack direction='row' sx={{ p: 1.5 }}>
 
-                                        
+
 
                                         <Stack direction='row'>
                                             <Box component='img' src={pg1} alt='...' sx={{ ml: '79px' }} />
@@ -637,68 +653,21 @@ const Position = () => {
                                     </Stack>
 
                                 </Paper>
-                                
-
-                                <Paper sx={{ borderRadius: '12px', mt: '7px', ml: '12.5px', width: '1327px', bgcolor:'#F0F0F0' }} elevation={4} id='4'>
-
-                                    <Stack direction='row'>
-                                        <Paper sx={{p: 0.4, bgcolor: '#B9BBFD',borderRadius:'12px 0px 0px 12px'}} elevation={0}></Paper>
-                                        <Stack direction='row' sx={{ p: 1.5 }}>
-
-                                            <CircleIcon sx={{ color:'#B9BBFD',mt:1.7,ml:'30px' }} />
 
 
-                                        <Stack direction='row'>
-                                            <Box component='img' src={pg1} alt='...' sx={{ ml: '15px' }} />
-                                            <Box component='img' src={pg2} alt='...' sx={{ ml: '4px' }} />
-                                            <Box component='img' src={pg3} alt='...' sx={{ ml: '4px' }} />
-                                        </Stack>
-
-                                        <Typography sx={{ textTransform: 'capitalize', fontFamily: 'Montserrat', fontWeight: 600, fontSize: "14px", ml: '49px', mt: '15px' }}>
-                                            activities manager - chicago
-                                        </Typography>
-
-                                        <Typography sx={{ textTransform: 'capitalize', fontFamily: 'Montserrat', fontWeight: 600, fontSize: "14px", ml: '49px', mt: '15px' }}>
-                                            chicago-USA
-                                        </Typography>
-
-                                        <Typography sx={{ textTransform: 'capitalize', fontFamily: 'Montserrat', fontWeight: 600, fontSize: "14px", ml: '96px', mt: '15px' }}>
-                                            self
-                                        </Typography>
-
-                                        <Typography sx={{ textTransform: 'capitalize', fontFamily: 'Montserrat', fontWeight: 600, fontSize: "14px", ml: '125px', mt: '15px' }}>
-                                            13
-                                        </Typography>
-
-                                        <Typography sx={{ textTransform: 'capitalize', fontFamily: 'Montserrat', fontWeight: 600, fontSize: "14px", ml: '111px', mt: '15px' }}>
-                                            18y
-                                        </Typography>
-
-                                        <Typography sx={{ textTransform: 'capitalize', fontFamily: 'Montserrat', fontWeight: 600, fontSize: "14px", ml: '100px', mt: '15px' }}>
-                                            24h ago
-                                        </Typography>
-
-                                        <Box component='img' src={dbin} alt='...' sx={{ width: '24px', height: '25px', mt: '10px', ml: 12 }} />
-
-                                    </Stack>
-                                    </Stack>
-
-                                </Paper>
-                                
-
-                                <Paper sx={{ borderRadius: '12px', mt: '7px', ml: '12.5px', width: '1327px', bgcolor: '#F0F0F0' }} elevation={4} id='5'>
+                                <Paper sx={{ borderRadius: '12px', mt: '7px', ml: '12.5px', width: '1327px', bgcolor: '#F0F0F0' }} elevation={4} id='4'>
 
                                     <Stack direction='row'>
-                                        <Paper sx={{ p: 0.4, bgcolor: '#FC3F33', borderRadius: '12px 0px 0px 12px' }} elevation={0}></Paper>
+                                        <Paper sx={{ p: 0.4, bgcolor: '#B9BBFD', borderRadius: '12px 0px 0px 12px' }} elevation={0}></Paper>
                                         <Stack direction='row' sx={{ p: 1.5 }}>
 
-                                            <CircleIcon sx={{ color: '#FC3F33', mt: 1.7, ml: '30px' }} />
+                                            <CircleIcon sx={{ color: '#B9BBFD', mt: 1.7, ml: '30px' }} />
 
 
                                             <Stack direction='row'>
-                                                <Box component='img' src={pg1} alt='...' sx={{ ml: '15px' }} />
-                                                <Box component='img' src={pg2} alt='...' sx={{ ml: '4px' }} />
-                                                <Box component='img' src={pg3} alt='...' sx={{ ml: '4px' }} />
+                                                <Box component='img' src={pg1} alt='...' sx={{ ml: '15px', filter: 'drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))' }} />
+                                                <Box component='img' src={pg2} alt='...' sx={{ ml: '4px', filter: 'drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))' }} />
+                                                <Box component='img' src={pg3} alt='...' sx={{ ml: '4px', filter: 'drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))' }} />
                                             </Stack>
 
                                             <Typography sx={{ textTransform: 'capitalize', fontFamily: 'Montserrat', fontWeight: 600, fontSize: "14px", ml: '49px', mt: '15px' }}>
@@ -725,7 +694,54 @@ const Position = () => {
                                                 24h ago
                                             </Typography>
 
-                                            <Box component='img' src={dbin} alt='...' sx={{ width: '24px', height: '25px', mt: '10px', ml: 12 }} />
+                                            <Box component='img' src={dbin} alt='...' sx={{ width: '24px', height: '25px', mt: '10px', ml: 12, filter: 'drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))' }} />
+
+                                        </Stack>
+                                    </Stack>
+
+                                </Paper>
+
+
+                                <Paper sx={{ borderRadius: '12px', mt: '7px', ml: '12.5px', width: '1327px', bgcolor: '#F0F0F0' }} elevation={4} id='5'>
+
+                                    <Stack direction='row'>
+                                        <Paper sx={{ p: 0.4, bgcolor: '#FC3F33', borderRadius: '12px 0px 0px 12px' }} elevation={0}></Paper>
+                                        <Stack direction='row' sx={{ p: 1.5 }}>
+
+                                            <CircleIcon sx={{ color: '#FC3F33', mt: 1.7, ml: '30px' }} />
+
+
+                                            <Stack direction='row'>
+                                                <Box component='img' src={pg1} alt='...' sx={{ ml: '15px', filter: 'drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))' }} />
+                                                <Box component='img' src={pg2} alt='...' sx={{ ml: '4px', filter: 'drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))' }} />
+                                                <Box component='img' src={pg3} alt='...' sx={{ ml: '4px', filter: 'drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))' }} />
+                                            </Stack>
+
+                                            <Typography sx={{ textTransform: 'capitalize', fontFamily: 'Montserrat', fontWeight: 600, fontSize: "14px", ml: '49px', mt: '15px' }}>
+                                                activities manager - chicago
+                                            </Typography>
+
+                                            <Typography sx={{ textTransform: 'capitalize', fontFamily: 'Montserrat', fontWeight: 600, fontSize: "14px", ml: '49px', mt: '15px' }}>
+                                                chicago-USA
+                                            </Typography>
+
+                                            <Typography sx={{ textTransform: 'capitalize', fontFamily: 'Montserrat', fontWeight: 600, fontSize: "14px", ml: '96px', mt: '15px' }}>
+                                                self
+                                            </Typography>
+
+                                            <Typography sx={{ textTransform: 'capitalize', fontFamily: 'Montserrat', fontWeight: 600, fontSize: "14px", ml: '125px', mt: '15px' }}>
+                                                13
+                                            </Typography>
+
+                                            <Typography sx={{ textTransform: 'capitalize', fontFamily: 'Montserrat', fontWeight: 600, fontSize: "14px", ml: '111px', mt: '15px' }}>
+                                                18y
+                                            </Typography>
+
+                                            <Typography sx={{ textTransform: 'capitalize', fontFamily: 'Montserrat', fontWeight: 600, fontSize: "14px", ml: '100px', mt: '15px' }}>
+                                                24h ago
+                                            </Typography>
+
+                                            <Box component='img' src={dbin} alt='...' sx={{ width: '24px', height: '25px', mt: '10px', ml: 12, filter: 'drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))' }} />
 
                                         </Stack>
                                     </Stack>
@@ -743,9 +759,9 @@ const Position = () => {
 
 
                                             <Stack direction='row'>
-                                                <Box component='img' src={pg1} alt='...' sx={{ ml: '15px' }} />
-                                                <Box component='img' src={pg2} alt='...' sx={{ ml: '4px' }} />
-                                                <Box component='img' src={pg3} alt='...' sx={{ ml: '4px' }} />
+                                                <Box component='img' src={pg1} alt='...' sx={{ ml: '15px', filter: 'drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))' }} />
+                                                <Box component='img' src={pg2} alt='...' sx={{ ml: '4px', filter: 'drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))' }} />
+                                                <Box component='img' src={pg3} alt='...' sx={{ ml: '4px', filter: 'drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))' }} />
                                             </Stack>
 
                                             <Typography sx={{ textTransform: 'capitalize', fontFamily: 'Montserrat', fontWeight: 600, fontSize: "14px", ml: '49px', mt: '15px' }}>
@@ -772,7 +788,7 @@ const Position = () => {
                                                 24h ago
                                             </Typography>
 
-                                            <Box component='img' src={dbin} alt='...' sx={{ width: '24px', height: '25px', mt: '10px', ml: 12 }} />
+                                            <Box component='img' src={dbin} alt='...' sx={{ width: '24px', height: '25px', mt: '10px', ml: 12, filter: 'drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))' }} />
 
                                         </Stack>
                                     </Stack>
@@ -902,7 +918,7 @@ const Position = () => {
 
                                 </Paper>
 
-                                
+
                             </Box>
 
                         </Paper>
